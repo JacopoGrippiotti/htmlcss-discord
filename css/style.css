@@ -71,7 +71,6 @@ ul>li{
     margin-right: 2rem;
 }
 
-
 .section-jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;   
@@ -124,21 +123,18 @@ ul>li{
 }
 
 .bg-gray{
-    background-color:#d3d3d3 ;
+    background-color:#f6f6f6 ;
 }
 
-.section-big{
-    height: 600px;
-    padding: 35px 0px;
-    background-color: gray;
+.section-big{ 
+    padding: 60px 0px;
 }
 
 .green-box{
-    width: 70%;
+    width: 90%;
     height: 100%;
-    background-color: green;
     margin: 0 auto;
-    border: 2px dashed black;
+    text-align: center;
 }
 
 .bg-black{
@@ -237,4 +233,17 @@ h2{
 
 #graggle-img{
     margin-top: 40px;
+}
+
+#just-chillin-img{
+    width: 80%;
+}
+
+.green-box>p{
+    color: black;
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-family:'Lato', sans-serif;
+    margin-top: 50px;
+    line-height: 1.8rem;
 }
