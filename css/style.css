@@ -90,11 +90,10 @@ ul>li{
 }
 
 .section{
-    padding: 30px 0px;
+    padding: 100px 0px;
 }
 
-.container{
-    
+.container{  
     width: 70%;
     margin: 0 auto;
 }
@@ -102,7 +101,7 @@ ul>li{
 .blue-box{
     width: 60%;
     margin-right: 150px;
-    padding-bottom: 80px;
+    padding-bottom: 50px;
 }
 
 .pink-box{
@@ -229,4 +228,9 @@ h2{
     text-align:justify
     font-family:'Lato', sans-serif;
     line-height: 4rem;
+}
+
+#voice-connected-img{
+    margin-left: 210px;
+    margin-top: 100px;
 }
