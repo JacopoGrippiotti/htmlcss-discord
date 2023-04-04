@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.flex{
+    display: flex;
+    flex-direction: row;   
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+header{
+    height: 75px;
+    background-color: #add8e6;
+}
+
+nav{
+    height: 100%;
+}
+
+.align-center{
+    align-items: center;
+}
+
+.space-between{
+    justify-content: space-between;
+}
+
+.space-around{
+    justify-content: space-around;
+}
+
+nav>ul{
+    width: 70%;
+    margin: 0 auto;
+    background-color:#daa520;
+}
+
+.item-left,.item-right{
+    width: 20%;
+    display: flex;
+    align-items: center;
+}
+
+.item-right{
+    justify-content: flex-end;
+}
+.item-left{
+    justify-content: flex-start;
+}
+
+.item-center{
+    width: 60%;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.space-evenly{
+    justify-content: space-evenly;
+}
+
+ul>li{
+    padding: 5px;
+}
+
+.items-border{
+    border: 2px dashed black;
+}
+
+
+.section-jumbotron{
+    background-color:#00008b ;
+    height: 400px;
+    padding: 40px;
+}
+
+.jumbotron{
+    background-color:#ee82ee ;
+    width: 50%;
+    margin: 0 auto;
+    height: 100%;
+    max-width: 1200px;
+    border: 2px dashed black;
+}
+
+.bg_white{
+    background-color: white;
+}
+
+.section{
+    height: 500px;
+    padding: 35px 0px;
+}
+
+.container{
+    height: 100%;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.blue-box{
+    width: 60%;
+    background-color: #1e90ff;
+    border: 2px dashed black;
+}
+
+.pink-box{
+    width: 40%;
+    background-color: #ffc0cb;
+    border: 2px dashed black;
+}
+
+.flex-reverse{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.bg-gray{
+    background-color:#d3d3d3 ;
+}
+
+.section-big{
+    height: 600px;
+    padding: 35px 0px;
+    background-color: gray;
+}
+
+.green-box{
+    width: 70%;
+    height: 100%;
+    background-color: green;
+    margin: 0 auto;
+    border: 2px dashed black;
+}
+
+.bg-black{
+    background-color: #23272a;
+}
+
+.section.bg-black{
+    padding-top: 10px;
+    height: 500px;
+    background-color: #23272a;
+}
+
+.acqua-box{
+    width: 17%;
+    background-color:#20b2aa ;
+    border: 2px dashed black;
+}
+
+.magenta-box{
+    width: 32%;
+    background-color:#f08080 ;
+    border: 2px dashed #23272a;
+}
+
+hr{
+    color: white;
+}
+
+.bg-acqua{
+    background-color:#7fffd4 ;
+}
+
+.button{
+    background-color: #ffb6c1;
+    padding: 5px 0px;
+    border: 2px dashed black;
+}
+
+.section-bottom-footer{
+    height: 70px;
+    margin-top: 20px;
+}
