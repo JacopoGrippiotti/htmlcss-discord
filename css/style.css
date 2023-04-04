@@ -200,4 +200,14 @@ h1{
     line-height: 2rem;
     font-size:1.2rem ;
     font-weight: 600;
+    margin-bottom: 40px;
+}
+
+.section-jumbotron span{
+    padding: 18px;
+    border-radius: 30px;    
+}
+
+.section-jumbotron span:nth-of-type(1){
+    margin-right: 10px;
 }
