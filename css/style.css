@@ -66,15 +66,19 @@ nav>ul{
     justify-content: space-evenly;
 }
 
-ul>li{
+ul.item-left>li,ul.item-right>li{
     padding: 5px;
-    margin-right: 2rem;
+    margin-right: 1.5rem;
+}
+
+ul>li{
+    padding: 25px
 }
 
 .section-jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;   
-    padding: 135px 0px;
+    padding: 125px 0px;
     font-family:'Lato', sans-serif;
 }
 
