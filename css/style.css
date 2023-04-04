@@ -14,7 +14,9 @@ nav ul{
 }
 
 header{
-    background-color: #add8e6;
+    background-color: #3161e0;
+    color: #f1f4fd;
+    font-weight: 600;
 }
 
 nav{
@@ -37,7 +39,6 @@ nav{
 nav>ul{
     width: 70%;
     margin: 0 auto;
-    background-color:#daa520;
 }
 
 .item-left,.item-right{
@@ -67,10 +68,7 @@ nav>ul{
 
 ul>li{
     padding: 5px;
-}
-
-.items-border{
-    border: 2px dashed black;
+    margin-right: 2rem;
 }
 
 
@@ -178,4 +176,8 @@ hr{
 .section-bottom-footer{
     height: 70px;
     margin-top: 20px;
+}
+
+body{
+    font-family:'Cabin', sans-serif;
 }
