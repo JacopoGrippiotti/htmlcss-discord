@@ -74,18 +74,15 @@ ul>li{
 
 .section-jumbotron{
     background-image: url(../img/jumbo.png);
-    background-size: cover;
-    height: 550px;
-    padding: 40px 0px;
+    background-size: cover;   
+    padding: 100px 0px;
+    font-family:'Lato', sans-serif;
 }
 
 .jumbotron{
-    width: 50%;
     margin: 0 auto;
-    height: 100%;
     max-width: 1200px;
-    border: 2px dashed black;
-    text-align: center;
+    text-align:center;
 }
 
 .bg_white{
@@ -194,7 +191,13 @@ body{
 }
 
 h1{
-    font-size: 4rem;
-    font-weight: 500;
-    
+    font-size: 3.8rem;
+    font-weight: 900;
+}
+
+.jumbo-p{
+    padding: 50px 0px 0px 0px;
+    line-height: 2rem;
+    font-size:1.2rem ;
+    font-weight: 600;
 }
