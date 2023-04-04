@@ -85,6 +85,7 @@ ul>li{
     height: 100%;
     max-width: 1200px;
     border: 2px dashed black;
+    text-align: center;
 }
 
 .bg_white{
@@ -180,6 +181,7 @@ hr{
 
 body{
     font-family:'Cabin', sans-serif;
+    color: white;
 }
 
 .pill{
@@ -191,3 +193,8 @@ body{
     color: black;
 }
 
+h1{
+    font-size: 4rem;
+    font-weight: 500;
+    
+}
