@@ -14,12 +14,12 @@ nav ul{
 }
 
 header{
-    height: 75px;
     background-color: #add8e6;
 }
 
 nav{
     height: 100%;
+    padding: 15px 0px;
 }
 
 .align-center{
