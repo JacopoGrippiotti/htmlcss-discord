@@ -75,7 +75,7 @@ ul>li{
 .section-jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;   
-    padding: 100px 0px;
+    padding: 135px 0px;
     font-family:'Lato', sans-serif;
 }
 
@@ -182,8 +182,8 @@ body{
 }
 
 .pill{
-    border-radius: 20px;
-    padding: 10px;
+    border-radius: 30px;
+    padding: 15px;
 }
 
 .font-black{
@@ -203,11 +203,15 @@ h1{
     margin-bottom: 40px;
 }
 
-.section-jumbotron span{
-    padding: 18px;
-    border-radius: 30px;    
-}
-
 .section-jumbotron span:nth-of-type(1){
     margin-right: 10px;
+}
+
+li.item-right{
+    font-weight: 500;
+}
+
+.down-arrow{
+    font-weight: 800;
+    font-size:  20px;
 }
