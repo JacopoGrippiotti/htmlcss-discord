@@ -90,26 +90,33 @@ ul>li{
 }
 
 .section{
-    height: 500px;
-    padding: 35px 0px;
+    padding: 30px 0px;
 }
 
 .container{
-    height: 100%;
+    
     width: 70%;
     margin: 0 auto;
 }
 
 .blue-box{
     width: 60%;
-    background-color: #1e90ff;
-    border: 2px dashed black;
+    margin-right: 150px;
+    padding-bottom: 80px;
 }
 
 .pink-box{
     width: 40%;
-    background-color: #ffc0cb;
-    border: 2px dashed black;
+    margin-top: 60px;
+}
+
+.pink-box>p{
+    color: black;
+    font-size: 1.2rem;
+    line-height: 2rem;
+    font-weight: 500;
+    font-family:'Lato', sans-serif;
+    margin-top: 40px;
 }
 
 .flex-reverse{
@@ -214,4 +221,12 @@ li.item-right{
 .down-arrow{
     font-weight: 800;
     font-size:  20px;
+}
+
+h2{
+    font-size: 3.5rem;
+    font-weight: 900;
+    text-align:justify
+    font-family:'Lato', sans-serif;
+    line-height: 4rem;
 }
