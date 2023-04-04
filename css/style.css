@@ -14,7 +14,7 @@ nav ul{
 }
 
 header{
-    background-color: #3161e0;
+    background-color:#285ceb;
     color: #f1f4fd;
     font-weight: 600;
 }
@@ -73,13 +73,13 @@ ul>li{
 
 
 .section-jumbotron{
-    background-color:#00008b ;
-    height: 400px;
-    padding: 40px;
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    height: 550px;
+    padding: 40px 0px;
 }
 
 .jumbotron{
-    background-color:#ee82ee ;
     width: 50%;
     margin: 0 auto;
     height: 100%;
@@ -181,3 +181,13 @@ hr{
 body{
     font-family:'Cabin', sans-serif;
 }
+
+.pill{
+    border-radius: 20px;
+    padding: 10px;
+}
+
+.font-black{
+    color: black;
+}
+
