@@ -71,10 +71,13 @@ ul.item-left>li,ul.item-right>li{
     margin-right: 1.5rem;
 }
 
-ul>li{
+ul.space-between>li{
     padding: 25px
 }
 
+ul.flex>li{
+    padding: 25px;
+}
 .section-jumbotron{
     background-image: url(../img/jumbo.png);
     background-size: cover;   
@@ -152,14 +155,10 @@ ul>li{
 
 .acqua-box{
     width: 17%;
-    background-color:#20b2aa ;
-    border: 2px dashed black;
 }
 
 .magenta-box{
-    width: 32%;
-    background-color:#f08080 ;
-    border: 2px dashed #23272a;
+    width: 32%;    
 }
 
 hr{
@@ -264,4 +263,16 @@ h3{
 
 .bg-violet span:nth-of-type(1){
     margin-right: 10px;
+}
+
+.text-violet{
+    color: #596aa4;
+}
+
+.acqua-box li,.acqua-box h4{
+    padding: 10px 10px;
+}
+
+.acqua-box ul{
+    list-style-type: none;
 }
