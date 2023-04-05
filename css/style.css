@@ -20,7 +20,6 @@ header{
 }
 
 nav{
-    height: 100%;
     padding: 15px 0px;
 }
 
@@ -167,16 +166,11 @@ hr{
     color: white;
 }
 
-.bg-acqua{
-    background-color:#7fffd4 ;
-}
-
 .button{
     padding: 5px 0px;
 }
 
-.section-bottom-footer{
-    
+.section-bottom-footer{   
     margin-top: 20px;
     padding-bottom: 20px;
 }
@@ -295,7 +289,8 @@ h3{
 }
 
 hr{
-    color:#8ea1e1;
+    height: 2px;
+    background-color:#4d4880;
     width:80%;
     margin: 0 auto;
 }
