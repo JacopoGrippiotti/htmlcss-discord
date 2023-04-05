@@ -155,10 +155,12 @@ ul.flex>li{
 
 .acqua-box{
     width: 17%;
+    margin-top: 20px;
 }
 
 .magenta-box{
-    width: 32%;    
+    width: 32%;
+    margin-top: 17px;    
 }
 
 hr{
@@ -270,9 +272,14 @@ h3{
 }
 
 .acqua-box li,.acqua-box h4{
-    padding: 10px 10px;
+    padding: 10px 15px;
+    margin-left: 50px;
 }
 
 .acqua-box ul{
     list-style-type: none;
+}
+
+.magenta-box h3{
+    text-align: left;
 }
