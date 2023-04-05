@@ -97,13 +97,13 @@ ul>li{
 }
 
 .container{  
-    width: 70%;
+    width: 80%;
     margin: 0 auto;
 }
 
 .blue-box{
     width: 60%;
-    margin-right: 150px;
+    margin-right: 120px;
     padding-bottom: 50px;
 }
 
@@ -131,12 +131,11 @@ ul>li{
 }
 
 .section-big{ 
-    padding: 60px 0px;
+    padding: 100px 0px;
 }
 
 .green-box{
     width: 90%;
-    height: 100%;
     margin: 0 auto;
     text-align: center;
 }
@@ -225,7 +224,6 @@ li.item-right{
 h2{
     font-size: 3.5rem;
     font-weight: 900;
-    text-align:justify
     font-family:'Lato', sans-serif;
     line-height: 4rem;
 }
@@ -250,4 +248,20 @@ h2{
     font-family:'Lato', sans-serif;
     margin-top: 50px;
     line-height: 1.8rem;
+}
+
+h3{
+    font-size: 2.3rem;
+    font-weight: 900;
+    font-family:'Lato', sans-serif;
+    text-align: center;
+    margin-bottom: 50px;   
+}
+
+.bg-violet{
+    background-color:#8ea1e1 ;
+}
+
+.bg-violet span:nth-of-type(1){
+    margin-right: 10px;
 }
