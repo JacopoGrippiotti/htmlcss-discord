@@ -282,3 +282,9 @@ h3{
 .magenta-box h3{
     text-align: left;
 }
+
+hr{
+    color:#8ea1e1;
+    width: 80%;
+    margin: 0 auto;
+}
