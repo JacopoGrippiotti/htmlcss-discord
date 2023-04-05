@@ -172,14 +172,13 @@ hr{
 }
 
 .button{
-    background-color: #ffb6c1;
     padding: 5px 0px;
-    border: 2px dashed black;
 }
 
 .section-bottom-footer{
-    height: 70px;
+    
     margin-top: 20px;
+    padding-bottom: 20px;
 }
 
 body{
